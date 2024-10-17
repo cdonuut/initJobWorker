@@ -38,12 +38,3 @@ zeebe.client.cloud.clusterId=xxxxx
 zeebe.client.cloud.clientId=yxxxxx
 zeebe.client.cloud.clientSecret=.xxxxxx
 ```
-
-
-## How to work with Job Workers
-
-Your Job Workers are located in the Workers folder, the path being:
-```
-ideProjects/jobWorkerTest/src/main/java/org/camunda/academy/jobworkertest/workers
-```
-When you define your job worker using the @JobWorker annotation, the application will listen for calls trying to reach this job worker, nothing else required from your side.
